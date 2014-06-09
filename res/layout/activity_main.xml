@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@drawable/main" >
+
+   
+   
+ 
+
+
+
+ <View 
+     android:id="@+id/view1"
+     android:layout_height="150dip"
+     android:layout_width="fill_parent"
+     android:layout_alignParentBottom="true"
+     />
+
+
+        <Button 
+       
+       android:id="@+id/btn_login"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       
+       android:text="		Go To Login Page		"
+       android:textColor="#ffffff"
+       android:textSize="16dip"
+       android:background="@drawable/tab_button_hover"
+       android:layout_centerHorizontal="true"
+       android:textStyle="bold"
+       android:onClick="onLoginClicked"
+              />
+        <View 
+     android:id="@+id/view1"
+     android:layout_height="150dip"
+     android:layout_width="fill_parent"
+     android:layout_alignParentBottom="true"
+     />
+        
+</RelativeLayout>
